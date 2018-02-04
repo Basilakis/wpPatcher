@@ -1,0 +1,81 @@
+.row-actions .inline{ /* Hide 'Quick edit' link */
+	display:none;
+}
+
+.patch-data-wrap{
+	margin:2em 1em 0;
+}
+
+.patch-data-wrap .field{
+	margin:0 0 2em 0;
+}
+
+.patch-data-wrap label,
+.patch-data-wrap input,
+.patch-data-wrap select,
+.patch-file-name{
+	display: inline-block;
+	vertical-align: middle;
+	min-width:140px;
+	margin-right:1em;
+}
+
+.patch-data-wrap label{
+	font-weight: 600;
+	text-align: right;
+}
+
+.patch-data-wrap .field textarea{
+	resize: both;
+	min-width: calc(100% - 160px);
+	width: calc(100% - 160px);
+	max-width:100%;
+	max-width: calc(100% - 160px);
+	min-height:150px;
+}
+
+.patch-file-name{
+	min-width: 150px;
+	padding:8px 10px;
+	min-height: 12px;
+	line-height: 1em;
+	vertical-align:middle;
+	font-size:12px;
+	font-weight: bold;
+	background: #f8f8f8;
+	border:1px solid #eee;
+}
+
+.patch-domains-wrap {
+	display:block;
+	margin-top:1em;
+}
+
+.patch-domains-wrap.hidden {
+	display:none;
+}
+
+.patch-domains-wrap span{
+	display:inline-block;
+	margin-bottom:1em;
+}
+
+.error-msg{
+	color: #a00;
+}
+
+.validation-icon{
+	font-size: 1.8em;
+}
+
+.validation-icon.error{
+	color: #a00;
+}
+
+.validation-icon.success{
+	color: green;
+}
+
+table.wp-list-table{
+	table-layout: auto;
+}
